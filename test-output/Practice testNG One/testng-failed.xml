@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Practice testNG One]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="undersuite.com"/>
+  <listeners>
+    <listener class-name="com.testng.practice.PracticeTestNG_Listener"/>
+  </listeners>
+  <test thread-count="5" name="PracticeModuleTest(failed)">
+    <parameter name="CRED" value="myUser"/>
+    <parameter name="URL" value="undertest.com"/>
+    <groups>
+      <run>
+        <exclude name="notthingpresent"/>
+        <exclude name="notthingpresent"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.testng.practice.Practice2_TestNG">
+        <parameter name="URL" value="underclass.com"/>
+        <methods>
+          <include name="goodBye4"/>
+          <include name="beforeClassGoogbye"/>
+          <include name="beforeTestSample"/>
+          <include name="sampleAfterMethod"/>
+          <include name="afterTestMessage"/>
+          <include name="goodBye2"/>
+          <include name="afterClassGoodBye"/>
+          <include name="loginTestMethod"/>
+        </methods>
+      </class> <!-- com.testng.practice.Practice2_TestNG -->
+    </classes>
+  </test> <!-- PracticeModuleTest(failed) -->
+</suite> <!-- Failed suite [Practice testNG One] -->

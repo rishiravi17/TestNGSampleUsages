@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="50484181-d6ac-42f2-8e0e-3ee2ddd19468" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1XRKepZV867kqOAk0JHNR5aIpaN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../SeleniumWorkSpace/commons-io-2.6" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Acusis\Acusis\ACU_PROJECTS\LearningModules\Java\sampleCodes2020\TestNGProjects\src\com\testng\practice" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Practice1_FirstTestNG" type="TestNG">
+      <module name="TestNGProjects" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50484181-d6ac-42f2-8e0e-3ee2ddd19468" name="Default Changelist" comment="" />
+      <created>1581003564299</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581003564299</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="487" y="88" key="#&lt;default&gt;" timestamp="1581004037900">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="487" y="88" key="#&lt;default&gt;/0.0.1536.834@0.0.1536.834" timestamp="1581004037900" />
+    <state x="361" y="80" key="#Project_Structure" timestamp="1581003806854">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="80" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1581003806854" />
+    <state x="499" y="168" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581004850589">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="168" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1581004850589" />
+    <state x="487" y="88" key="#com.testng.practice" timestamp="1581004971019">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="487" y="88" key="#com.testng.practice/0.0.1536.834@0.0.1536.834" timestamp="1581004971019" />
+    <state x="523" y="137" key="DetectedRootsChooserDialog" timestamp="1581003803574">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="523" y="137" key="DetectedRootsChooserDialog/0.0.1536.834@0.0.1536.834" timestamp="1581003803574" />
+    <state x="549" y="176" key="FileChooserDialogImpl" timestamp="1581003800354">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="176" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1581003800354" />
+  </component>
+</project>

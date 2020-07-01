@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="undersuite.com"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.testng.practice.Practice4_TestNG">
+        <methods>
+          <include name="goodByeTest"/>
+          <include name="abcAfterTestMethod"/>
+          <include name="abcBeforeTestMethod"/>
+          <include name="abcTestMethod"/>
+        </methods>
+      </class> <!-- com.testng.practice.Practice4_TestNG -->
+      <class name="com.testng.practice.Practice3_TestNG">
+        <methods>
+          <include name="methodAfterClass"/>
+          <include name="howdyMethod3"/>
+          <include name="howdyMethod2"/>
+          <include name="howdyMethod1"/>
+          <include name="methodBeforeClass"/>
+        </methods>
+      </class> <!-- com.testng.practice.Practice3_TestNG -->
+      <class name="com.testng.practice.Practice1_TestNG">
+        <methods>
+          <include name="sampleBeforeMethod"/>
+          <include name="sampleAfterMethod"/>
+          <include name="sampleTimeOutMethod"/>
+          <include name="aAaHelloMessage2"/>
+          <include name="helloMessage4"/>
+          <include name="helloMessage1"/>
+          <include name="beforeClassSample"/>
+          <include name="helloMessage6"/>
+          <include name="sampelAfterSuite"/>
+          <include name="helloMessage5"/>
+          <include name="helloFirstMessageInThisClass"/>
+          <include name="helloMessage7"/>
+          <include name="helloLastMessageInThisClass"/>
+          <include name="afterClassSample"/>
+        </methods>
+      </class> <!-- com.testng.practice.Practice1_TestNG -->
+      <class name="com.testng.practice.Practice2_TestNG">
+        <methods>
+          <include name="goodBye4"/>
+          <include name="beforeClassGoogbye"/>
+          <include name="beforeTestSample"/>
+          <include name="sampleAfterMethod"/>
+          <include name="goodBye1"/>
+          <include name="afterTestMessage"/>
+          <include name="goodBye2"/>
+          <include name="goodBye3"/>
+          <include name="afterClassGoodBye"/>
+          <include name="welcomeMessage1"/>
+          <include name="welcomeMessage2"/>
+        </methods>
+      </class> <!-- com.testng.practice.Practice2_TestNG -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

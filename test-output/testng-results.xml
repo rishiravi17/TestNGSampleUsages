@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="26" passed="23" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-25T06:23:55Z" name="Practice testNG One" finished-at="2020-06-25T06:23:55Z" duration-ms="361">
+    <groups>
+      <group name="smoke">
+        <method signature="Practice1_TestNG.helloMessage5()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" name="helloMessage5" class="com.testng.practice.Practice1_TestNG"/>
+        <method signature="Practice1_TestNG.helloMessage4()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" name="helloMessage4" class="com.testng.practice.Practice1_TestNG"/>
+        <method signature="Practice2_TestNG.goodBye3()[pri:0, instance:com.testng.practice.Practice2_TestNG@4d5650ae]" name="goodBye3" class="com.testng.practice.Practice2_TestNG"/>
+        <method signature="Practice3_TestNG.howdyMethod2()[pri:0, instance:com.testng.practice.Practice3_TestNG@6fdbe764]" name="howdyMethod2" class="com.testng.practice.Practice3_TestNG"/>
+        <method signature="Practice1_TestNG.helloMessage6()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" name="helloMessage6" class="com.testng.practice.Practice1_TestNG"/>
+      </group> <!-- smoke -->
+      <group name="regression7">
+        <method signature="Practice1_TestNG.helloMessage4()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" name="helloMessage4" class="com.testng.practice.Practice1_TestNG"/>
+      </group> <!-- regression7 -->
+    </groups>
+    <test started-at="2020-06-25T06:23:55Z" name="PracticeModuleTest" finished-at="2020-06-25T06:23:55Z" duration-ms="245">
+      <class name="com.testng.practice.Practice1_TestNG">
+        <test-method is-config="true" signature="helloFirstMessageInThisClass()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="helloFirstMessageInThisClass" finished-at="2020-06-25T06:23:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- helloFirstMessageInThisClass -->
+        <test-method is-config="true" signature="beforeTestSample()[pri:0, instance:com.testng.practice.Practice2_TestNG@4d5650ae]" started-at="2020-06-25T06:23:55Z" name="beforeTestSample" finished-at="2020-06-25T06:23:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestSample -->
+        <test-method is-config="true" signature="beforeClassSample()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="beforeClassSample" finished-at="2020-06-25T06:23:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassSample -->
+        <test-method is-config="true" signature="sampleBeforeMethod()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="sampleBeforeMethod" finished-at="2020-06-25T06:23:55Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleBeforeMethod -->
+        <test-method signature="helloMessage5()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="helloMessage5" finished-at="2020-06-25T06:23:55Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- helloMessage5 -->
+        <test-method is-config="true" signature="sampleAfterMethod()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="sampleAfterMethod" finished-at="2020-06-25T06:23:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleAfterMethod -->
+        <test-method is-config="true" signature="sampleBeforeMethod()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="sampleBeforeMethod" finished-at="2020-06-25T06:23:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleBeforeMethod -->
+        <test-method signature="sampleTimeOutMethod()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="sampleTimeOutMethod" finished-at="2020-06-25T06:23:55Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTimeOutMethod -->
+        <test-method is-config="true" signature="sampleAfterMethod()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="sampleAfterMethod" finished-at="2020-06-25T06:23:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleAfterMethod -->
+        <test-method is-config="true" signature="sampleBeforeMethod()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="sampleBeforeMethod" finished-at="2020-06-25T06:23:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleBeforeMethod -->
+        <test-method signature="testDependencyOptionTestNG1()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="testDependencyOptionTestNG1" finished-at="2020-06-25T06:23:55Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDependencyOptionTestNG1 -->
+        <test-method is-config="true" signature="sampleAfterMethod()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="sampleAfterMethod" finished-at="2020-06-25T06:23:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleAfterMethod -->
+        <test-method is-config="true" signature="sampleBeforeMethod()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="sampleBeforeMethod" finished-at="2020-06-25T06:23:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleBeforeMethod -->
+        <test-method signature="aaaaatestMethod()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="aaaaatestMethod" finished-at="2020-06-25T06:23:55Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaaaatestMethod -->
+        <test-method is-config="true" signature="sampleAfterMethod()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="sampleAfterMethod" finished-at="2020-06-25T06:23:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleAfterMethod -->
+        <test-method is-config="true" signature="sampleBeforeMethod()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="sampleBeforeMethod" finished-at="2020-06-25T06:23:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleBeforeMethod -->
+        <test-method signature="helloMessage6()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="helloMessage6" finished-at="2020-06-25T06:23:55Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- helloMessage6 -->
+        <test-method is-config="true" signature="sampleAfterMethod()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="sampleAfterMethod" finished-at="2020-06-25T06:23:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleAfterMethod -->
+        <test-method is-config="true" signature="sampleBeforeMethod()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="sampleBeforeMethod" finished-at="2020-06-25T06:23:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleBeforeMethod -->
+        <test-method signature="helloMessage7()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="helloMessage7" finished-at="2020-06-25T06:23:55Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- helloMessage7 -->
+        <test-method is-config="true" signature="sampleAfterMethod()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="sampleAfterMethod" finished-at="2020-06-25T06:23:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleAfterMethod -->
+        <test-method is-config="true" signature="sampleBeforeMethod()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="sampleBeforeMethod" finished-at="2020-06-25T06:23:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleBeforeMethod -->
+        <test-method signature="passingParameter(java.lang.String)[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="passingParameter" finished-at="2020-06-25T06:23:55Z" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[undertest.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passingParameter -->
+        <test-method is-config="true" signature="sampleAfterMethod()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="sampleAfterMethod" finished-at="2020-06-25T06:23:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleAfterMethod -->
+        <test-method is-config="true" signature="sampleBeforeMethod()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="sampleBeforeMethod" finished-at="2020-06-25T06:23:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleBeforeMethod -->
+        <test-method signature="helloMessage4()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="helloMessage4" finished-at="2020-06-25T06:23:55Z" depends-on-methods="com.testng.practice.Practice1_TestNG.helloMessage5" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- helloMessage4 -->
+        <test-method is-config="true" signature="sampleAfterMethod()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="sampleAfterMethod" finished-at="2020-06-25T06:23:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleAfterMethod -->
+        <test-method signature="aaaHelloMessage2()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="aaaHelloMessage2" finished-at="2020-06-25T06:23:55Z" depends-on-methods="com.testng.practice.Practice1_TestNG.helloMessage5, com.testng.practice.Practice1_TestNG.helloMessage4" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaaHelloMessage2 -->
+        <test-method is-config="true" signature="sampleBeforeMethod()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="sampleBeforeMethod" finished-at="2020-06-25T06:23:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleBeforeMethod -->
+        <test-method is-config="true" signature="sampleAfterMethod()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="sampleAfterMethod" finished-at="2020-06-25T06:23:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleAfterMethod -->
+        <test-method is-config="true" signature="sampleBeforeMethod()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="sampleBeforeMethod" finished-at="2020-06-25T06:23:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleBeforeMethod -->
+        <test-method signature="dependentMethod1()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="dependentMethod1" finished-at="2020-06-25T06:23:55Z" depends-on-methods="com.testng.practice.Practice1_TestNG.testDependencyOptionTestNG1, com.testng.practice.Practice1_TestNG.helloMessage4" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dependentMethod1 -->
+        <test-method is-config="true" signature="sampleAfterMethod()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="sampleAfterMethod" finished-at="2020-06-25T06:23:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleAfterMethod -->
+        <test-method is-config="true" signature="afterClassSample()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="afterClassSample" finished-at="2020-06-25T06:23:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassSample -->
+        <test-method is-config="true" signature="helloLastMessageInThisClass()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="helloLastMessageInThisClass" finished-at="2020-06-25T06:23:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- helloLastMessageInThisClass -->
+        <test-method is-config="true" signature="afterTestMessage()[pri:0, instance:com.testng.practice.Practice2_TestNG@4d5650ae]" started-at="2020-06-25T06:23:55Z" name="afterTestMessage" finished-at="2020-06-25T06:23:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMessage -->
+      </class> <!-- com.testng.practice.Practice1_TestNG -->
+      <class name="com.testng.practice.Practice2_TestNG">
+        <test-method is-config="true" signature="beforeClassGoogbye()[pri:0, instance:com.testng.practice.Practice2_TestNG@4d5650ae]" started-at="2020-06-25T06:23:55Z" name="beforeClassGoogbye" finished-at="2020-06-25T06:23:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassGoogbye -->
+        <test-method signature="goodBye1(java.lang.String, java.lang.String)[pri:0, instance:com.testng.practice.Practice2_TestNG@4d5650ae]" started-at="2020-06-25T06:23:55Z" name="goodBye1" finished-at="2020-06-25T06:23:55Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[underclass.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[myUser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goodBye1 -->
+        <test-method is-config="true" signature="sampleAfterMethod()[pri:0, instance:com.testng.practice.Practice2_TestNG@4d5650ae]" started-at="2020-06-25T06:23:55Z" name="sampleAfterMethod" finished-at="2020-06-25T06:23:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleAfterMethod -->
+        <test-method signature="goodBye2(java.lang.String, java.lang.String)[pri:0, instance:com.testng.practice.Practice2_TestNG@4d5650ae]" started-at="2020-06-25T06:23:55Z" name="goodBye2" data-provider="getUserCredentials" finished-at="2020-06-25T06:23:55Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goodBye2 -->
+        <test-method signature="goodBye2(java.lang.String, java.lang.String)[pri:0, instance:com.testng.practice.Practice2_TestNG@4d5650ae]" started-at="2020-06-25T06:23:55Z" name="goodBye2" data-provider="getUserCredentials" finished-at="2020-06-25T06:23:55Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goodBye2 -->
+        <test-method is-config="true" signature="sampleAfterMethod()[pri:0, instance:com.testng.practice.Practice2_TestNG@4d5650ae]" started-at="2020-06-25T06:23:55Z" name="sampleAfterMethod" finished-at="2020-06-25T06:23:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleAfterMethod -->
+        <test-method is-config="true" signature="sampleAfterMethod()[pri:0, instance:com.testng.practice.Practice2_TestNG@4d5650ae]" started-at="2020-06-25T06:23:55Z" name="sampleAfterMethod" finished-at="2020-06-25T06:23:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleAfterMethod -->
+        <test-method signature="goodBye2(java.lang.String, java.lang.String)[pri:0, instance:com.testng.practice.Practice2_TestNG@4d5650ae]" started-at="2020-06-25T06:23:55Z" name="goodBye2" data-provider="getUserCredentials" finished-at="2020-06-25T06:23:55Z" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goodBye2 -->
+        <test-method is-config="true" signature="sampleAfterMethod()[pri:0, instance:com.testng.practice.Practice2_TestNG@4d5650ae]" started-at="2020-06-25T06:23:55Z" name="sampleAfterMethod" finished-at="2020-06-25T06:23:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleAfterMethod -->
+        <test-method signature="goodBye3()[pri:0, instance:com.testng.practice.Practice2_TestNG@4d5650ae]" started-at="2020-06-25T06:23:55Z" name="goodBye3" finished-at="2020-06-25T06:23:55Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goodBye3 -->
+        <test-method is-config="true" signature="sampleAfterMethod()[pri:0, instance:com.testng.practice.Practice2_TestNG@4d5650ae]" started-at="2020-06-25T06:23:55Z" name="sampleAfterMethod" finished-at="2020-06-25T06:23:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleAfterMethod -->
+        <test-method signature="loginTestMethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testng.practice.Practice2_TestNG@4d5650ae]" started-at="2020-06-25T06:23:55Z" name="loginTestMethod" data-provider="getUserCredentialsAndPIN" finished-at="2020-06-25T06:23:55Z" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pin1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestMethod -->
+        <test-method signature="loginTestMethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testng.practice.Practice2_TestNG@4d5650ae]" started-at="2020-06-25T06:23:55Z" name="loginTestMethod" data-provider="getUserCredentialsAndPIN" finished-at="2020-06-25T06:23:55Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pin2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestMethod -->
+        <test-method is-config="true" signature="sampleAfterMethod()[pri:0, instance:com.testng.practice.Practice2_TestNG@4d5650ae]" started-at="2020-06-25T06:23:55Z" name="sampleAfterMethod" finished-at="2020-06-25T06:23:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleAfterMethod -->
+        <test-method is-config="true" signature="sampleAfterMethod()[pri:0, instance:com.testng.practice.Practice2_TestNG@4d5650ae]" started-at="2020-06-25T06:23:55Z" name="sampleAfterMethod" finished-at="2020-06-25T06:23:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleAfterMethod -->
+        <test-method signature="loginTestMethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testng.practice.Practice2_TestNG@4d5650ae]" started-at="2020-06-25T06:23:55Z" name="loginTestMethod" data-provider="getUserCredentialsAndPIN" finished-at="2020-06-25T06:23:55Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pin3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestMethod -->
+        <test-method is-config="true" signature="sampleAfterMethod()[pri:0, instance:com.testng.practice.Practice2_TestNG@4d5650ae]" started-at="2020-06-25T06:23:55Z" name="sampleAfterMethod" finished-at="2020-06-25T06:23:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleAfterMethod -->
+        <test-method is-config="true" signature="afterClassGoodBye()[pri:0, instance:com.testng.practice.Practice2_TestNG@4d5650ae]" started-at="2020-06-25T06:23:55Z" name="afterClassGoodBye" finished-at="2020-06-25T06:23:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassGoodBye -->
+      </class> <!-- com.testng.practice.Practice2_TestNG -->
+      <class name="com.testng.practice.Practice3_TestNG">
+        <test-method is-config="true" signature="methodBeforeClass()[pri:0, instance:com.testng.practice.Practice3_TestNG@6fdbe764]" started-at="2020-06-25T06:23:55Z" name="methodBeforeClass" finished-at="2020-06-25T06:23:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodBeforeClass -->
+        <test-method signature="howdyMethod1()[pri:0, instance:com.testng.practice.Practice3_TestNG@6fdbe764]" started-at="2020-06-25T06:23:55Z" name="howdyMethod1" finished-at="2020-06-25T06:23:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- howdyMethod1 -->
+        <test-method signature="howdyMethod2()[pri:0, instance:com.testng.practice.Practice3_TestNG@6fdbe764]" started-at="2020-06-25T06:23:55Z" name="howdyMethod2" finished-at="2020-06-25T06:23:55Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- howdyMethod2 -->
+        <test-method signature="howdyMethod3()[pri:0, instance:com.testng.practice.Practice3_TestNG@6fdbe764]" started-at="2020-06-25T06:23:55Z" name="howdyMethod3" finished-at="2020-06-25T06:23:55Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- howdyMethod3 -->
+        <test-method is-config="true" signature="methodAfterClass()[pri:0, instance:com.testng.practice.Practice3_TestNG@6fdbe764]" started-at="2020-06-25T06:23:55Z" name="methodAfterClass" finished-at="2020-06-25T06:23:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodAfterClass -->
+      </class> <!-- com.testng.practice.Practice3_TestNG -->
+    </test> <!-- PracticeModuleTest -->
+    <test started-at="2020-06-25T06:23:55Z" name="AnotherTest" finished-at="2020-06-25T06:23:55Z" duration-ms="9">
+      <class name="com.testng.practice.Practice1_TestNG">
+        <test-method is-config="true" signature="helloMessage1()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="helloMessage1" finished-at="2020-06-25T06:23:55Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- helloMessage1 -->
+        <test-method is-config="true" signature="goodBye4()[pri:0, instance:com.testng.practice.Practice2_TestNG@4d5650ae]" started-at="2020-06-25T06:23:55Z" name="goodBye4" finished-at="2020-06-25T06:23:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goodBye4 -->
+        <test-method is-config="true" signature="sampelAfterSuite()[pri:0, instance:com.testng.practice.Practice1_TestNG@70e9c95d]" started-at="2020-06-25T06:23:55Z" name="sampelAfterSuite" finished-at="2020-06-25T06:23:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampelAfterSuite -->
+      </class> <!-- com.testng.practice.Practice1_TestNG -->
+      <class name="com.testng.practice.TestNGPractice4">
+        <test-method signature="abcTestMethod(java.lang.String)[pri:0, instance:com.testng.practice.TestNGPractice4@740cae06]" started-at="2020-06-25T06:23:55Z" name="abcTestMethod" finished-at="2020-06-25T06:23:55Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[undertest.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abcTestMethod -->
+        <test-method signature="goodByeTest()[pri:0, instance:com.testng.practice.TestNGPractice4@740cae06]" started-at="2020-06-25T06:23:55Z" name="goodByeTest" finished-at="2020-06-25T06:23:55Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goodByeTest -->
+      </class> <!-- com.testng.practice.TestNGPractice4 -->
+    </test> <!-- AnotherTest -->
+  </suite> <!-- Practice testNG One -->
+</testng-results>

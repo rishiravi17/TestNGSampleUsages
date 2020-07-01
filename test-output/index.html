@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Practice_testNG_One" class="navigator-link">
+              <span class="suite-name border-passed">Practice testNG One</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Practice_testNG_One" class="navigator-link ">
+                    <span>E:\Acusis\Acusis\ACU_PROJECTS\Github\TestNGProjects\Execute_PracticeClasses_TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Practice_testNG_One" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Practice_testNG_One" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Practice_testNG_One" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Practice_testNG_One" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Practice_testNG_One" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Practice_testNG_One" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">23 methods,   23 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Practice_testNG_One" class="hide-methods passed suite-Practice_testNG_One"> (hide)</a> <!-- hide-methods passed suite-Practice_testNG_One -->
+                      <a href="#" panel-name="suite-Practice_testNG_One" class="show-methods passed suite-Practice_testNG_One"> (show)</a> <!-- show-methods passed suite-Practice_testNG_One -->
+                    </span>
+                    <div class="method-list-content passed suite-Practice_testNG_One">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice_testNG_One" title="com.testng.practice.Practice1_TestNG" class="method navigator-link" hash-for-method="aaaHelloMessage2">aaaHelloMessage2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice_testNG_One" title="com.testng.practice.Practice1_TestNG" class="method navigator-link" hash-for-method="aaaaatestMethod">aaaaatestMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice_testNG_One" title="com.testng.practice.TestNGPractice4" class="method navigator-link" hash-for-method="abcTestMethod(undertest.com)">abcTestMethod(undertest.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice_testNG_One" title="com.testng.practice.Practice1_TestNG" class="method navigator-link" hash-for-method="dependentMethod1">dependentMethod1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice_testNG_One" title="com.testng.practice.Practice2_TestNG" class="method navigator-link" hash-for-method="goodBye1(underclass.com, myUser)">goodBye1(underclass.com, myUser)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice_testNG_One" title="com.testng.practice.Practice2_TestNG" class="method navigator-link" hash-for-method="goodBye2(username1, password1)">goodBye2(username1, password1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice_testNG_One" title="com.testng.practice.Practice2_TestNG" class="method navigator-link" hash-for-method="goodBye2(username2, password2)">goodBye2(username2, password2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice_testNG_One" title="com.testng.practice.Practice2_TestNG" class="method navigator-link" hash-for-method="goodBye2(username3, password3)">goodBye2(username3, password3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice_testNG_One" title="com.testng.practice.Practice2_TestNG" class="method navigator-link" hash-for-method="goodBye3">goodBye3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice_testNG_One" title="com.testng.practice.TestNGPractice4" class="method navigator-link" hash-for-method="goodByeTest">goodByeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice_testNG_One" title="com.testng.practice.Practice1_TestNG" class="method navigator-link" hash-for-method="helloMessage4">helloMessage4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice_testNG_One" title="com.testng.practice.Practice1_TestNG" class="method navigator-link" hash-for-method="helloMessage5">helloMessage5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice_testNG_One" title="com.testng.practice.Practice1_TestNG" class="method navigator-link" hash-for-method="helloMessage6">helloMessage6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice_testNG_One" title="com.testng.practice.Practice1_TestNG" class="method navigator-link" hash-for-method="helloMessage7">helloMessage7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice_testNG_One" title="com.testng.practice.Practice3_TestNG" class="method navigator-link" hash-for-method="howdyMethod1">howdyMethod1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice_testNG_One" title="com.testng.practice.Practice3_TestNG" class="method navigator-link" hash-for-method="howdyMethod2">howdyMethod2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice_testNG_One" title="com.testng.practice.Practice3_TestNG" class="method navigator-link" hash-for-method="howdyMethod3">howdyMethod3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice_testNG_One" title="com.testng.practice.Practice2_TestNG" class="method navigator-link" hash-for-method="loginTestMethod(login2, password2, pin2)">loginTestMethod(login2, password2, pin2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice_testNG_One" title="com.testng.practice.Practice2_TestNG" class="method navigator-link" hash-for-method="loginTestMethod(login1, password1, pin1)">loginTestMethod(login1, password1, pin1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice_testNG_One" title="com.testng.practice.Practice2_TestNG" class="method navigator-link" hash-for-method="loginTestMethod(login3, password3, pin3)">loginTestMethod(login3, password3, pin3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice_testNG_One" title="com.testng.practice.Practice1_TestNG" class="method navigator-link" hash-for-method="passingParameter(undertest.com)">passingParameter(undertest.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice_testNG_One" title="com.testng.practice.Practice1_TestNG" class="method navigator-link" hash-for-method="sampleTimeOutMethod">sampleTimeOutMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice_testNG_One" title="com.testng.practice.Practice1_TestNG" class="method navigator-link" hash-for-method="testDependencyOptionTestNG1">testDependencyOptionTestNG1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Practice_testNG_One -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Practice_testNG_One" class="panel Practice_testNG_One">
+          <div class="suite-Practice_testNG_One-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testng.practice.Practice3_TestNG</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="howdyMethod1">
+                  </a> <!-- howdyMethod1 -->
+                  <span class="method-name">howdyMethod1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="howdyMethod2">
+                  </a> <!-- howdyMethod2 -->
+                  <span class="method-name">howdyMethod2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="howdyMethod3">
+                  </a> <!-- howdyMethod3 -->
+                  <span class="method-name">howdyMethod3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Practice_testNG_One-class-passed -->
+          <div class="suite-Practice_testNG_One-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testng.practice.Practice1_TestNG</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="aaaHelloMessage2">
+                  </a> <!-- aaaHelloMessage2 -->
+                  <span class="method-name">aaaHelloMessage2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="aaaaatestMethod">
+                  </a> <!-- aaaaatestMethod -->
+                  <span class="method-name">aaaaatestMethod</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dependentMethod1">
+                  </a> <!-- dependentMethod1 -->
+                  <span class="method-name">dependentMethod1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="helloMessage4">
+                  </a> <!-- helloMessage4 -->
+                  <span class="method-name">helloMessage4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="helloMessage5">
+                  </a> <!-- helloMessage5 -->
+                  <span class="method-name">helloMessage5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="helloMessage6">
+                  </a> <!-- helloMessage6 -->
+                  <span class="method-name">helloMessage6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="helloMessage7">
+                  </a> <!-- helloMessage7 -->
+                  <span class="method-name">helloMessage7</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="passingParameter(undertest.com)">
+                  </a> <!-- passingParameter(undertest.com) -->
+                  <span class="method-name">passingParameter</span>
+                  <span class="parameters">(undertest.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sampleTimeOutMethod">
+                  </a> <!-- sampleTimeOutMethod -->
+                  <span class="method-name">sampleTimeOutMethod</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDependencyOptionTestNG1">
+                  </a> <!-- testDependencyOptionTestNG1 -->
+                  <span class="method-name">testDependencyOptionTestNG1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Practice_testNG_One-class-passed -->
+          <div class="suite-Practice_testNG_One-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testng.practice.Practice2_TestNG</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="goodBye1(underclass.com, myUser)">
+                  </a> <!-- goodBye1(underclass.com, myUser) -->
+                  <span class="method-name">goodBye1</span>
+                  <span class="parameters">(underclass.com, myUser)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="goodBye2(username1, password1)">
+                  </a> <!-- goodBye2(username1, password1) -->
+                  <span class="method-name">goodBye2</span>
+                  <span class="parameters">(username1, password1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="goodBye2(username2, password2)">
+                  </a> <!-- goodBye2(username2, password2) -->
+                  <span class="method-name">goodBye2</span>
+                  <span class="parameters">(username2, password2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="goodBye2(username3, password3)">
+                  </a> <!-- goodBye2(username3, password3) -->
+                  <span class="method-name">goodBye2</span>
+                  <span class="parameters">(username3, password3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="goodBye3">
+                  </a> <!-- goodBye3 -->
+                  <span class="method-name">goodBye3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTestMethod(login2, password2, pin2)">
+                  </a> <!-- loginTestMethod(login2, password2, pin2) -->
+                  <span class="method-name">loginTestMethod</span>
+                  <span class="parameters">(login2, password2, pin2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTestMethod(login1, password1, pin1)">
+                  </a> <!-- loginTestMethod(login1, password1, pin1) -->
+                  <span class="method-name">loginTestMethod</span>
+                  <span class="parameters">(login1, password1, pin1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTestMethod(login3, password3, pin3)">
+                  </a> <!-- loginTestMethod(login3, password3, pin3) -->
+                  <span class="method-name">loginTestMethod</span>
+                  <span class="parameters">(login3, password3, pin3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Practice_testNG_One-class-passed -->
+          <div class="suite-Practice_testNG_One-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testng.practice.TestNGPractice4</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="abcTestMethod(undertest.com)">
+                  </a> <!-- abcTestMethod(undertest.com) -->
+                  <span class="method-name">abcTestMethod</span>
+                  <span class="parameters">(undertest.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="goodByeTest">
+                  </a> <!-- goodByeTest -->
+                  <span class="method-name">goodByeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Practice_testNG_One-class-passed -->
+        </div> <!-- panel Practice_testNG_One -->
+        <div panel-name="test-xml-Practice_testNG_One" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Acusis\Acusis\ACU_PROJECTS\Github\TestNGProjects\Execute_PracticeClasses_TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Practice testNG One&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;URL&quot; value=&quot;undersuite.com&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.testng.practice.PracticeTestNG_Listener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;exclude name=&quot;notthingpresent&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;PracticeModuleTest&quot;&gt;
+    &lt;parameter name=&quot;CRED&quot; value=&quot;myUser&quot;/&gt;
+    &lt;parameter name=&quot;URL&quot; value=&quot;undertest.com&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;exclude name=&quot;notthingpresent&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testng.practice.Practice1_TestNG&quot;/&gt;
+      &lt;class name=&quot;com.testng.practice.Practice2_TestNG&quot;&gt;
+        &lt;parameter name=&quot;URL&quot; value=&quot;underclass.com&quot;/&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;welcome.*&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.testng.practice.Practice2_TestNG --&gt;
+      &lt;class name=&quot;com.testng.practice.Practice3_TestNG&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PracticeModuleTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;AnotherTest&quot;&gt;
+    &lt;parameter name=&quot;URL&quot; value=&quot;undertest.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testng.practice.TestNGPractice4&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AnotherTest --&gt;
+&lt;/suite&gt; &lt;!-- Practice testNG One --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Practice_testNG_One" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Practice testNG One</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">PracticeModuleTest (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">AnotherTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Practice_testNG_One" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Practice testNG One</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression7</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">helloMessage4</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">goodBye3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">helloMessage4</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">helloMessage5</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">helloMessage6</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">howdyMethod2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Practice_testNG_One" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Practice testNG One</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Practice_testNG_One');
+function tableData_Practice_testNG_One() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(23);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'sampleTimeOutMethod')
+data.setCell(0, 2, 'com.testng.practice.Practice1_TestNG')
+data.setCell(0, 3, 19);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'passingParameter')
+data.setCell(1, 2, 'com.testng.practice.Practice1_TestNG')
+data.setCell(1, 3, 14);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'helloMessage5')
+data.setCell(2, 2, 'com.testng.practice.Practice1_TestNG')
+data.setCell(2, 3, 9);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'goodBye2')
+data.setCell(3, 2, 'com.testng.practice.Practice2_TestNG')
+data.setCell(3, 3, 6);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'helloMessage6')
+data.setCell(4, 2, 'com.testng.practice.Practice1_TestNG')
+data.setCell(4, 3, 5);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginTestMethod')
+data.setCell(5, 2, 'com.testng.practice.Practice2_TestNG')
+data.setCell(5, 3, 5);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'aaaaatestMethod')
+data.setCell(6, 2, 'com.testng.practice.Practice1_TestNG')
+data.setCell(6, 3, 4);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'aaaHelloMessage2')
+data.setCell(7, 2, 'com.testng.practice.Practice1_TestNG')
+data.setCell(7, 3, 3);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'dependentMethod1')
+data.setCell(8, 2, 'com.testng.practice.Practice1_TestNG')
+data.setCell(8, 3, 3);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testDependencyOptionTestNG1')
+data.setCell(9, 2, 'com.testng.practice.Practice1_TestNG')
+data.setCell(9, 3, 3);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'goodBye2')
+data.setCell(10, 2, 'com.testng.practice.Practice2_TestNG')
+data.setCell(10, 3, 2);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'loginTestMethod')
+data.setCell(11, 2, 'com.testng.practice.Practice2_TestNG')
+data.setCell(11, 3, 2);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'goodBye2')
+data.setCell(12, 2, 'com.testng.practice.Practice2_TestNG')
+data.setCell(12, 3, 2);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'loginTestMethod')
+data.setCell(13, 2, 'com.testng.practice.Practice2_TestNG')
+data.setCell(13, 3, 2);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'helloMessage7')
+data.setCell(14, 2, 'com.testng.practice.Practice1_TestNG')
+data.setCell(14, 3, 2);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'howdyMethod3')
+data.setCell(15, 2, 'com.testng.practice.Practice3_TestNG')
+data.setCell(15, 3, 2);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'helloMessage4')
+data.setCell(16, 2, 'com.testng.practice.Practice1_TestNG')
+data.setCell(16, 3, 2);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'howdyMethod2')
+data.setCell(17, 2, 'com.testng.practice.Practice3_TestNG')
+data.setCell(17, 3, 2);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'goodBye3')
+data.setCell(18, 2, 'com.testng.practice.Practice2_TestNG')
+data.setCell(18, 3, 2);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'goodByeTest')
+data.setCell(19, 2, 'com.testng.practice.TestNGPractice4')
+data.setCell(19, 3, 2);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'howdyMethod1')
+data.setCell(20, 2, 'com.testng.practice.Practice3_TestNG')
+data.setCell(20, 3, 1);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'goodBye1')
+data.setCell(21, 2, 'com.testng.practice.Practice2_TestNG')
+data.setCell(21, 3, 1);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'abcTestMethod')
+data.setCell(22, 2, 'com.testng.practice.TestNGPractice4')
+data.setCell(22, 3, 1);
+window.suiteTableData['Practice_testNG_One']= { tableData: data, tableDiv: 'times-div-Practice_testNG_One'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 94 ms</span>
+              <div id="times-div-Practice_testNG_One">
+              </div> <!-- times-div-Practice_testNG_One -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Practice_testNG_One" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Practice testNG One</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Practice_testNG_One" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">3 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.testng.practice.Practice1_TestNG</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">sampleDisabledMethod</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.testng.practice.Practice2_TestNG</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">welcomeMessage1</span>
+                <br/>
+                <span class="ignored-method-name">welcomeMessage2</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Practice_testNG_One" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testng.practice.Practice1_TestNG</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">helloMessage1</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">helloFirstMessageInThisClass</span>
+                <span class="method-start">15 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testng.practice.Practice2_TestNG</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTestSample</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testng.practice.Practice1_TestNG</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClassSample</span>
+                <span class="method-start">28 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">sampleBeforeMethod</span>
+                <span class="method-start">42 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">helloMessage5</span>
+                <span class="method-start">44 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">sampleAfterMethod</span>
+                <span class="method-start">56 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">sampleBeforeMethod</span>
+                <span class="method-start">61 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sampleTimeOutMethod</span>
+                <span class="method-start">61 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">sampleAfterMethod</span>
+                <span class="method-start">82 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">sampleBeforeMethod</span>
+                <span class="method-start">84 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDependencyOptionTestNG1</span>
+                <span class="method-start">84 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">sampleAfterMethod</span>
+                <span class="method-start">91 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">sampleBeforeMethod</span>
+                <span class="method-start">92 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">aaaaatestMethod</span>
+                <span class="method-start">93 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">sampleAfterMethod</span>
+                <span class="method-start">99 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">sampleBeforeMethod</span>
+                <span class="method-start">101 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">helloMessage6</span>
+                <span class="method-start">102 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">sampleAfterMethod</span>
+                <span class="method-start">110 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">sampleBeforeMethod</span>
+                <span class="method-start">111 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">helloMessage7</span>
+                <span class="method-start">112 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">sampleAfterMethod</span>
+                <span class="method-start">118 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">sampleBeforeMethod</span>
+                <span class="method-start">123 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">passingParameter(undertest.com)</span>
+                <span class="method-start">123 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">sampleAfterMethod</span>
+                <span class="method-start">139 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">sampleBeforeMethod</span>
+                <span class="method-start">145 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">helloMessage4</span>
+                <span class="method-start">146 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">sampleAfterMethod</span>
+                <span class="method-start">150 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">sampleBeforeMethod</span>
+                <span class="method-start">153 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">aaaHelloMessage2</span>
+                <span class="method-start">153 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">sampleAfterMethod</span>
+                <span class="method-start">158 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">sampleBeforeMethod</span>
+                <span class="method-start">160 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dependentMethod1</span>
+                <span class="method-start">161 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">sampleAfterMethod</span>
+                <span class="method-start">166 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClassSample</span>
+                <span class="method-start">167 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testng.practice.Practice2_TestNG</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClassGoogbye</span>
+                <span class="method-start">169 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">goodBye1(underclass.com, myUser)</span>
+                <span class="method-start">170 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">sampleAfterMethod</span>
+                <span class="method-start">173 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">goodBye2(username1, password1)</span>
+                <span class="method-start">178 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">sampleAfterMethod</span>
+                <span class="method-start">185 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">goodBye2(username2, password2)</span>
+                <span class="method-start">185 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">sampleAfterMethod</span>
+                <span class="method-start">191 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">goodBye2(username3, password3)</span>
+                <span class="method-start">192 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">sampleAfterMethod</span>
+                <span class="method-start">201 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">goodBye3</span>
+                <span class="method-start">203 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">sampleAfterMethod</span>
+                <span class="method-start">207 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">loginTestMethod(login1, password1, pin1)</span>
+                <span class="method-start">208 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">sampleAfterMethod</span>
+                <span class="method-start">215 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">loginTestMethod(login2, password2, pin2)</span>
+                <span class="method-start">215 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">sampleAfterMethod</span>
+                <span class="method-start">218 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">loginTestMethod(login3, password3, pin3)</span>
+                <span class="method-start">220 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">sampleAfterMethod</span>
+                <span class="method-start">240 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClassGoodBye</span>
+                <span class="method-start">240 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testng.practice.Practice3_TestNG</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">methodBeforeClass</span>
+                <span class="method-start">242 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">howdyMethod1</span>
+                <span class="method-start">243 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">howdyMethod2</span>
+                <span class="method-start">246 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">howdyMethod3</span>
+                <span class="method-start">250 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">methodAfterClass</span>
+                <span class="method-start">255 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testng.practice.Practice1_TestNG</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">helloLastMessageInThisClass</span>
+                <span class="method-start">256 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testng.practice.Practice2_TestNG</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTestMessage</span>
+                <span class="method-start">257 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testng.practice.TestNGPractice4</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">abcTestMethod(undertest.com)</span>
+                <span class="method-start">367 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">goodByeTest</span>
+                <span class="method-start">370 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testng.practice.Practice1_TestNG</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">sampelAfterSuite</span>
+                <span class="method-start">388 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testng.practice.Practice2_TestNG</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">goodBye4</span>
+                <span class="method-start">388 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
